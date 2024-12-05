@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+.container {
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding: 50px;
+  top: 40%;
+  right: 40%;
+}
+
+.num {
+  font-size: 58px;
+  font-weight: 800;
+}
+
+.container div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.container div p {
+  background-color: bisque;
+  padding: 4px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: bisque;
+  padding: 4px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 50px;
+  margin-left: 100px;
+}
